@@ -6,7 +6,7 @@ public class TicTacToe {
 
     public enum Evaluation {
 
-        InvalidInput, NoWinner, Xwins, Owins, UnreachableState
+        INVALIDINPUT, NOWINNER, XWINS, OWINS, UNREACHABLESTATE
 
     }
 
