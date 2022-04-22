@@ -1,4 +1,4 @@
-package Game;
+package Tic_Tac;
 
 import java.util.Scanner;
 
