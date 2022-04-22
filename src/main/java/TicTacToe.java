@@ -91,7 +91,7 @@ public class TicTacToe {
 
         String board = scanner.nextLine();
 
-        System.out.println(EvaluateBoard(board));
+        System.Out.println(EvaluateBoard(board));
 
     }
 
