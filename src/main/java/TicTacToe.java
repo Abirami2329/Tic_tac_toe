@@ -10,7 +10,7 @@ public class TicTacToe {
 
     }
 
-    public static Evaluation evaluateBoard (String board){
+    public static Evaluation evaluateBoard (int board){
 
         if (board.length() != 9){
 
