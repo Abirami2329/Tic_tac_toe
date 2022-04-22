@@ -27,12 +27,12 @@ public class TicTacToe {
 
             if (board.toLowerCase().charAt(i) == 'x'){
 
-                xSequence += i;
+                StringBuilder append(int i);                       //xSequence += i;
 
             }
             else if (board.toLowerCase().charAt(i) == 'o'){
 
-                oSequence += i;
+                StringBuilder append(int i);                       //oSequence += i;
 
             }
 
