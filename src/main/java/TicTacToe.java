@@ -12,7 +12,7 @@ public class TicTacToe {
 
     }
 
-    public static Evaluation evaluateBoard (int board){
+    public static Evaluation evaluateBoard (String board){
 
         if (board.length() != 9){
 
@@ -27,12 +27,12 @@ public class TicTacToe {
 
             if (board.toLowerCase().charAt(i) == 'x'){
 
-                StringBuilder append(int i);                       
+                xSequence += i;                       
 
             }
             else if (board.toLowerCase().charAt(i) == 'o'){
 
-                StringBuilder append(int i);                      
+               oSequence += i;                      
 
             }
 
